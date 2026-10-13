@@ -1,5 +1,6 @@
 import streamlit as st
 from src.rag.pipeline import answer
+        r = answer(q, hist)
 from src.config import HISTORY_LIMIT
 
 st.set_page_config(page_title="Groww MF Facts Assistant", page_icon="📊")
