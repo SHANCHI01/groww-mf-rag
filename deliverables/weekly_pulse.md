@@ -1,3 +1,38 @@
-﻿# Weekly Product Pulse - 2026-10-13
+﻿# ClearPulse | The Monday Signal
+**Weekly Product Pulse - 13 October 2026**
 
-**Weekly Product Note: Groww App Feedback** **Top Themes** 1. **Positive User Experience (65 mentions):** Dominant sentiment praises the app’s usability, navigation, and overall convenience for investing and trading. 2. **High Brokerage and Charges (5 mentions):** Recurring complaints regarding fee structures compared to competitors, with specific requests for a zero-brokerage subscription model. 3. **Performance and Stability Issues (4 mentions):** Reports of app lag, slowness, and critical compatibility failures on older Android OS versions. **Supporting Quotes** * "I had a great experience with Groww. The app is user-friendly, easy to navigate, and makes investing in stocks and mutual funds convenient." * "This application is highest brokerage charges take from user in comparison to other application." * "App stopped working with old android OS since october 2026. kindly do something and make it work again!" **Key Observation** While core product satisfaction remains high, a distinct friction point exists in pricing perception. Users are actively benchmarking our brokerage against competitors, indicating that value perception is shifting from "ease of use" to "cost efficiency." Additionally, the loss of legacy Android support is creating a specific, solvable churn risk for a segment of our user base. **3 Action Ideas** 1. **Pricing Transparency & Education:** Launch an in-app comparison tool or FAQ section that contextualizes our brokerage against the total cost of ownership (including hidden costs in other platforms) to address the "high fee" perception. 2. **Legacy OS Support Triage:** Immediately assess the technical feasibility of maintaining a lightweight "lite" version or specific compatibility patch for older
+## The signal in 50 reviews
+
+**The good:** Users love the simplicity.
+**The friction:** Brokerage charges affect perceived value.
+**The risk:** Older Android users report compatibility issues.
+
+## What customers are telling us
+
+- **Positive experience - 65 mentions:** Users appreciate easy navigation and convenient investing.
+- **Brokerage and charges - 5 mentions:** Customers question pricing and compare alternatives.
+- **Performance and stability - 4 mentions:** Lag and older Android compatibility are recurring concerns.
+
+## The voice of the customer
+
+> "The app is user-friendly, easy to navigate, and makes investing in stocks and mutual funds convenient."
+
+> "This application is highest brokerage charges take from user in comparison to other application."
+
+> "App stopped working with old android OS since october 2026. kindly do something and make it work again!"
+
+## The product insight
+
+**Ease of use builds satisfaction. Perceived cost and reliability can weaken it.**
+
+Pricing perceptions and compatibility issues are signals to investigate, not yet proof of churn.
+
+## Three moves for next week
+
+1. **Clarify pricing:** Review customer confusion using verified pricing information.
+2. **Investigate compatibility:** Identify affected Android versions and assess the scale.
+3. **Validate the friction:** Review more complaints and interview affected users before prioritising solutions.
+
+## Monday's priority
+
+**Protect the experience users already love while investigating the friction that could push them away.**

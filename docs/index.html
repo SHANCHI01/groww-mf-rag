@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClearPulse: reviews into a weekly plan</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#0b0813;--card:#161024;--ink:#f3eefc;--mute:#b2a7c9;--line:#2c2140;--acc:#a97bff;--accsoft:#2a1b49;--ok:#7be0a8;--okbg:#14301f;--bad:#ff8f8f}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 "Source Sans 3",system-ui,sans-serif;padding-top:env(safe-area-inset-top,0)}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding:16px clamp(16px,4vw,48px);border-bottom:1px solid var(--line)}
+.brand{font:800 20px "Bricolage Grotesque",sans-serif;display:flex;gap:10px;align-items:center}
+.logo{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,#7c3aed,#a97bff);display:inline-block}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav button{font:600 15px inherit;font-family:inherit;border:0;background:none;color:var(--mute);padding:8px 14px;border-radius:999px;cursor:pointer}
+nav button[aria-selected=true]{background:var(--accsoft);color:var(--acc)}
+nav button:focus-visible,.btn:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+main{max-width:1040px;margin:0 auto;padding:32px clamp(16px,4vw,48px) 64px}
+h1{font:800 clamp(34px,6vw,60px)/1.02 "Bricolage Grotesque",sans-serif;letter-spacing:-.02em;margin:0 0 16px;max-width:15ch}
+h2{font:800 26px "Bricolage Grotesque",sans-serif;margin:0 0 12px}
+.lead{color:var(--mute);max-width:60ch;margin:0 0 24px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:28px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:10px;padding:14px 16px}
+.stat b{display:block;font:800 28px "Bricolage Grotesque",sans-serif}.stat span{color:var(--mute);font-size:14px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:clamp(16px,3vw,28px);margin-bottom:16px}
+.pulse p,.pulse li{max-width:70ch}.pulse h3{font:800 18px "Bricolage Grotesque",sans-serif;margin:20px 0 6px}
+ul{padding-left:20px}li{margin:4px 0}
+.btn{font:600 16px inherit;font-family:inherit;background:#7c3aed;color:#fff;border:0;border-radius:10px;padding:12px 20px;cursor:pointer}
+.btn[disabled]{background:var(--okbg);color:var(--ok);cursor:default}
+.themes{counter-reset:t;padding:0;list-style:none}.themes li{padding:10px 0;border-bottom:1px solid var(--line)}
+table{border-collapse:collapse;width:100%}td,th{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);font-size:15px}
+.pass{color:var(--ok);font-weight:600}.fail{color:var(--bad);font-weight:600}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto;white-space:pre-wrap;word-break:break-word;font-size:13px;margin:8px 0 0}
+.note{color:var(--mute);font-size:14px}.hide{display:none}
+a{color:var(--acc)}footer{padding:24px clamp(16px,4vw,48px);border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+@media (prefers-reduced-motion:no-preference){.panel{transition:border-color .2s}}
+</style></head><body>
+<header><div class="brand"><span class="logo"></span>ClearPulse</div>
+<nav role="tablist" id="tabs"></nav></header>
+<main id="app"></main>
+<footer>ClearPulse is a static demo of saved results from a real run. Nothing is sent: the approval step writes to the page only. Code: <a href="https://github.com/SHANCHI01/groww-mf-rag">github.com/SHANCHI01/groww-mf-rag</a></footer>
+<script>
+const D = {"date": "2026-10-13", "range": "2026-10-13", "review_count": 50, "top_themes": ["Positive User Experience", "High Brokerage and Charges", "Performance and Stability Issues"], "weekly_pulse": "﻿# ClearPulse | The Monday Signal\n**Weekly Product Pulse - 13 October 2026**\n\n## The signal in 50 reviews\n\n**The good:** Users love the simplicity.\n**The friction:** Brokerage charges affect perceived value.\n**The risk:** Older Android users report compatibility issues.\n\n## What customers are telling us\n\n- **Positive experience - 65 mentions:** Users appreciate easy navigation and convenient investing.\n- **Brokerage and charges - 5 mentions:** Customers question pricing and compare alternatives.\n- **Performance and stability - 4 mentions:** Lag and older Android compatibility are recurring concerns.\n\n## The voice of the customer\n\n\u003e \"The app is user-friendly, easy to navigate, and makes investing in stocks and mutual funds convenient.\"\n\n\u003e \"This application is highest brokerage charges take from user in comparison to other application.\"\n\n\u003e \"App stopped working with old android OS since october 2026. kindly do something and make it work again!\"\n\n## The product insight\n\n**Ease of use builds satisfaction. Perceived cost and reliability can weaken it.**\n\nPricing perceptions and compatibility issues are signals to investigate, not yet proof of churn.\n\n## Three moves for next week\n\n1. **Clarify pricing:** Review customer confusion using verified pricing information.\n2. **Investigate compatibility:** Identify affected Android versions and assess the scale.\n3. **Validate the friction:** Review more complaints and interview affected users before prioritising solutions.\n\n## Monday's priority\n\n**Protect the experience users already love while investigating the friction that could push them away.**", "identified_fee_issue": "High Brokerage Charges", "explanation_bullets": ["The provided context does not contain information regarding Groww's brokerage charges or comparisons with competitors.", "The context does not mention a zero-brokerage subscription model or user expectations regarding such a model.", "The available text focuses on mutual fund details, including fund names like Groww Large Cap Fund and Groww Multicap Fund.", "The context defines the expense ratio as a fee payable to a mutual fund house for managing investments.", "The expense ratio is described as the total percentage of fund assets used for administrative, management, advertising, and other expenses.", "The context lists Nikhil Satam as a fund manager with a background in Finance and prior experience at Groww Invest Tech Private Ltd."], "source_links": ["https://groww.in/mutual-funds/groww-large-cap-fund-direct-growth", "https://groww.in/mutual-funds/groww-value-fund-direct-growth"], "entry": {"date": "2026-10-13", "top_themes": ["Positive User Experience", "High Brokerage and Charges", "Performance and Stability Issues"], "weekly_pulse": "**Weekly Product Note: Groww App Feedback** **Top Themes** 1. **Positive User Experience (65 mentions):** Dominant sentiment praises the app’s usability, navigation, and overall convenience for investing and trading. 2. **High Brokerage and Charges (5 mentions):** Recurring complaints regarding fee structures compared to competitors, with specific requests for a zero-brokerage subscription model. 3. **Performance and Stability Issues (4 mentions):** Reports of app lag, slowness, and critical compatibility failures on older Android OS versions. **Supporting Quotes** * \"I had a great experience with Groww. The app is user-friendly, easy to navigate, and makes investing in stocks and mutual funds convenient.\" * \"This application is highest brokerage charges take from user in comparison to other application.\" * \"App stopped working with old android OS since october 2026. kindly do something and make it work again!\" **Key Observation** While core product satisfaction remains high, a distinct friction point exists in pricing perception. Users are actively benchmarking our brokerage against competitors, indicating that value perception is shifting from \"ease of use\" to \"cost efficiency.\" Additionally, the loss of legacy Android support is creating a specific, solvable churn risk for a segment of our user base. **3 Action Ideas** 1. **Pricing Transparency \u0026 Education:** Launch an in-app comparison tool or FAQ section that contextualizes our brokerage against the total cost of ownership (including hidden costs in other platforms) to address the \"high fee\" perception. 2. **Legacy OS Support Triage:** Immediately assess the technical feasibility of maintaining a lightweight \"lite\" version or specific compatibility patch for older", "identified_fee_issue": "High Brokerage Charges", "explanation_bullets": ["- The provided context does not contain information regarding Groww's brokerage charges or comparisons with competitors.", "- The context does not mention a zero-brokerage subscription model or user expectations regarding such a model.", "- The available text focuses on mutual fund details, including fund names like Groww Large Cap Fund and Groww Multicap Fund.", "- The context defines the expense ratio as a fee payable to a mutual fund house for managing investments.", "- The expense ratio is described as the total percentage of fund assets used for administrative, management, advertising, and other expenses.", "- The context lists Nikhil Satam as a fund manager with a background in Finance and prior experience at Groww Invest Tech Private Ltd."], "source_links": ["https://groww.in/mutual-funds/groww-large-cap-fund-direct-growth", "https://groww.in/mutual-funds/groww-value-fund-direct-growth"], "evals": {"Pulse \u003c= 250 words": true, "3 quotes, verbatim in CSV": true, "Max 5 themes": true, "Explainer \u003c= 6 bullets": true, "Exactly 2 source links": true, "'Last checked' present": true, "No advice language": true}}, "email_subject": "Weekly Product Pulse + Customer Clarification — High Brokerage Charges", "email_body": "**Weekly Product Note: Groww App Feedback** **Top Themes** 1. **Positive User Experience (65 mentions):** Dominant sentiment praises the app\\u2019s usability, navigation, and overall convenience for investing and trading. 2. **High Brokerage and Charges (5 mentions):** Recurring complaints regarding fee structures compared to competitors, with specific requests for a zero-brokerage subscription model. 3. **Performance and Stability Issues (4 mentions):** Reports of app lag, slowness, and critical compatibility failures on older Android OS versions. **Supporting Quotes** * \"I had a great experience with Groww. The app is user-friendly, easy to navigate, and makes investing in stocks and mutual funds convenient.\" * \"This application is highest brokerage charges take from user in comparison to other application.\" * \"App stopped working with old android OS since october 2026. kindly do something and make it work again!\" **Key Observation** While core product satisfaction remains high, a distinct friction point exists in pricing perception. Users are actively benchmarking our brokerage against competitors, indicating that value perception is shifting from \"ease of use\" to \"cost efficiency.\" Additionally, the loss of legacy Android support is creating a specific, solvable churn risk for a segment of our user base. **3 Action Ideas** 1. **Pricing Transparency \u0026 Education:** Launch an in-app comparison tool or FAQ section that contextualizes our brokerage against the total cost of ownership (including hidden costs in other platforms) to address the \"high fee\" perception. 2. **Legacy OS Support Triage:** Immediately assess the technical feasibility of maintaining a lightweight \"lite\" version or specific compatibility patch for older\n\nSupport snippet:\n- The provided context does not contain information regarding Groww's brokerage charges or comparisons with competitors.\n- The context does not mention a zero-brokerage subscription model or user expectations regarding such a model.\n- The available text focuses on mutual fund details, including fund names like Groww Large Cap Fund and Groww Multicap Fund.\n- The context defines the expense ratio as a fee payable to a mutual fund house for managing investments.\n- The expense ratio is described as the total percentage of fund assets used for administrative, management, advertising, and other expenses.\n- The context lists Nikhil Satam as a fund manager with a background in Finance and prior experience at Groww Invest Tech Private Ltd.\n['https://groww.in/mutual-funds/groww-large-cap-fund-direct-growth', 'https://groww.in/mutual-funds/groww-value-fund-direct-growth']\nLast checked: 13 Oct 2026", "evals": {"Pulse \u003c= 250 words": true, "3 quotes, verbatim in CSV": true, "Max 5 themes": true, "Explainer \u003c= 6 bullets": true, "Exactly 2 source links": true, "'Last checked' present": true, "No advice language": true}};
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const md = t => esc(t).split(/\n{2,}/).map(b => {
+  const lines = b.split("\n");
+  if (lines.every(l => /^\s*[-*] /.test(l))) return "<ul>"+lines.map(l=>"<li>"+l.replace(/^\s*[-*] /,"")+"</li>").join("")+"</ul>";
+  if (/^#{1,4} /.test(b)) return "<h3>"+b.replace(/^#{1,4} /,"")+"</h3>";
+  return "<p>"+b.replace(/\n/g,"<br>")+"</p>";
+}).join("").replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
+const TABS = [["overview","Overview"],["pulse","Weekly pulse"],["fee","Fee explainer"],["approve","Approve & log"]];
+let tab = "overview", approved = false;
+const app = document.getElementById("app");
+if (!D) { app.innerHTML = "<h1>No data yet</h1><p class='lead'>Run <code>python -m scripts.build_site</code> to fill this page from your deliverables.</p>"; }
+else {
+const words = D.weekly_pulse.trim().split(/\s+/).length;
+function view() {
+  document.getElementById("tabs").innerHTML = TABS.map(([k,l]) => `<button role="tab" aria-selected="${k===tab}" data-k="${k}">${l}</button>`).join("");
+  if (tab==="overview") app.innerHTML = `
+    <h1>${D.review_count.toLocaleString()} reviews, turned into a Monday plan.</h1>
+    <p class="lead">Public Groww Play Store reviews from ${esc(D.range)} are sorted into themes, one fee people keep misreading is explained, and a person approves before anything is saved.</p>
+    <div class="stats">
+      <div class="stat"><b>${D.review_count.toLocaleString()}</b><span>reviews read</span></div>
+      <div class="stat"><b>${D.top_themes.length}</b><span>top themes this week</span></div>
+      <div class="stat"><b>1 fee</b><span>${esc(D.identified_fee_issue)}</span></div>
+      <div class="stat"><b>${words} words</b><span>weekly pulse, limit 250</span></div>
+      <div class="stat"><b id="w">${approved?2:0} writes</b><span>${approved?"approved by a person":"until a person approves"}</span></div>
+    </div>
+    <div class="panel"><h2>Top themes</h2><ol class="themes">${D.top_themes.map(t=>`<li>${esc(t)}</li>`).join("")}</ol></div>`;
+  if (tab==="pulse") app.innerHTML = `<div class="panel pulse"><h2>Weekly product pulse</h2><p class="note">Week of ${esc(D.date)}. For the product team.</p>${md(D.weekly_pulse)}</div>`;
+  if (tab==="fee") app.innerHTML = `<div class="panel pulse"><h2>${esc(D.identified_fee_issue)}</h2><p class="note">Reusable snippet for support. Facts only, no advice.</p><ul>${D.explanation_bullets.map(b=>`<li>${esc(b.replace(/^\s*[-*]\s*/,""))}</li>`).join("")}</ul><h3>Sources</h3><ul>${D.source_links.map(l=>`<li><a href="${esc(l)}" target="_blank" rel="noopener">${esc(l)}</a></li>`).join("")}</ul><p class="note">Last checked: ${esc(D.date)}</p></div>`;
+  if (tab==="approve") app.innerHTML = `
+    <div class="panel"><h2>Approve & log</h2>
+      <p class="lead">Two actions are waiting. Nothing is written until you approve.</p>
+      <ul><li>Append this week's entry to the notes document</li><li>Create an email draft (it is never sent)</li></ul>
+      <button class="btn" id="ap" ${approved?"disabled":""}>${approved?"Approved and logged":"Approve & log"}</button></div>
+    <div class="${approved?"":"hide"}" id="out">
+      <div class="panel"><h2>Notes entry</h2><pre>${esc(JSON.stringify(D.entry,null,2))}</pre></div>
+      <div class="panel"><h2>Email draft</h2><p class="note">Subject: ${esc(D.email_subject)}</p><pre>${esc(D.email_body)}</pre></div></div>
+    <div class="panel"><h2>Checks</h2><table>${Object.entries(D.evals||{}).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="${v?"pass":"fail"}">${v?"Pass":"Fail"}</td></tr>`).join("")}</table></div>`;
+}
+document.getElementById("tabs").addEventListener("click", e => { const k=e.target.dataset.k; if(k){tab=k;view();window.scrollTo(0,0);} });
+app.addEventListener("click", e => { if(e.target.id==="ap"){approved=true;view();} });
+view();
+}
+</script></body></html>
