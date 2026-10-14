@@ -1,14 +1,16 @@
-﻿# Fee explainer: High Brokerage Charges
+﻿# Fee Explainer: Understanding Groww Equity Trading Charges
 
-- The provided context does not contain information regarding Groww's brokerage charges or comparisons with competitors.
-- The context does not mention a zero-brokerage subscription model or user expectations regarding such a model.
-- The available text focuses on mutual fund details, including fund names like Groww Large Cap Fund and Groww Multicap Fund.
-- The context defines the expense ratio as a fee payable to a mutual fund house for managing investments.
-- The expense ratio is described as the total percentage of fund assets used for administrative, management, advertising, and other expenses.
-- The context lists Nikhil Satam as a fund manager with a background in Finance and prior experience at Groww Invest Tech Private Ltd.
+- **Brokerage:** For regular equity trades, Groww lists brokerage as the lower of ₹20 or 0.1% of trade value, subject to the applicable minimum charge.
+- **Other charges:** Exchange transaction charges, SEBI turnover charges, stamp duty, and Securities Transaction Tax (STT) may also apply, depending on the trade.
+- **DP charges:** Selling shares from a demat account can attract DP charges per sell transaction.
+- **GST:** GST applies to specified service charges, including brokerage and DP charges.
+- **Why the total can vary:** The final amount depends on trade value, order type, buy or sell activity, applicable taxes, and other charges.
+- **Where to verify:** Check the official pricing page and Groww's DP-charge explanation for the applicable rates and conditions.
 
-Sources:
-https://groww.in/mutual-funds/groww-large-cap-fund-direct-growth
-https://groww.in/mutual-funds/groww-value-fund-direct-growth
+**Customer issue:** Reviews indicate that some users find transaction-charge breakdowns difficult to understand. This is a reported transparency concern, not proof of incorrect billing.
 
-Last checked: 13 Oct 2026
+**Sources:**
+1. https://groww.in/pricing
+2. https://groww.in/help/stocks/searchable/when-are-dp-charges-levied
+
+**Last checked: 14 Oct 2026**

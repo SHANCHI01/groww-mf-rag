@@ -1,14 +1,84 @@
-Subject: Weekly Product Pulse + Customer Clarification — High Brokerage Charges
+Subject: ClearPulse Weekly Product Pulse
+To: product-team@example.com
 X-Unsent: 1
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
 
-**Weekly Product Note: Groww App Feedback** **Top Themes** 1. **Positive User Experience (65 mentions):** Dominant sentiment praises the app’s usability, navigation, and overall convenience for investing and trading. 2. **High Brokerage and Charges (5 mentions):** Recurring complaints regarding fee structures compared to competitors, with specific requests for a zero-brokerage subscription model. 3. **Performance and Stability Issues (4 mentions):** Reports of app lag, slowness, and critical compatibility failures on older Android OS versions. **Supporting Quotes** * "I had a great experience with Groww. The app is user-friendly, easy to navigate, and makes investing in stocks and mutual funds convenient." * "This application is highest brokerage charges take from user in comparison to other application." * "App stopped working with old android OS since october 2026. kindly do something and make it work again!" **Key Observation** While core product satisfaction remains high, a distinct friction point exists in pricing perception. Users are actively benchmarking our brokerage against competitors, indicating that value perception is shifting from "ease of use" to "cost efficiency." Additionally, the loss of legacy Android support is creating a specific, solvable churn risk for a segment of our user base. **3 Action Ideas** 1. **Pricing Transparency & Education:** Launch an in-app comparison tool or FAQ section that contextualizes our brokerage against the total cost of ownership (including hidden costs in other platforms) to address the "high fee" perception. 2. **Legacy OS Support Triage:** Immediately assess the technical feasibility of maintaining a lightweight "lite" version or specific compatibility patch for older
+Weekly Product Pulse
 
-Support snippet:
-- The provided context does not contain information regarding Groww's brokerage charges or comparisons with competitors.
-- The context does not mention a zero-brokerage subscription model or user expectations regarding such a model.
-- The available text focuses on mutual fund details, including fund names like Groww Large Cap Fund and Groww Multicap Fund.
-- The context defines the expense ratio as a fee payable to a mutual fund house for managing investments.
-- The expense ratio is described as the total percentage of fund assets used for administrative, management, advertising, and other expenses.
-- The context lists Nikhil Satam as a fund manager with a background in Finance and prior experience at Groww Invest Tech Private Ltd.
-['https://groww.in/mutual-funds/groww-large-cap-fund-direct-growth', 'https://groww.in/mutual-funds/groww-value-fund-direct-growth']
-Last checked: 13 Oct 2026
+# ClearPulse | The Monday Signal
+**Exploratory Product Pulse =E2=80=94 14 October 2026**
+
+## The signal
+
+**The opportunity:** Make transaction charges easier to understand.
+
+**The risk:** Customers may perceive brokerage and other deductions as unclea=
+r or expensive.
+
+## What customers are telling us
+
+- **Fee transparency:** 428 of 10,000 Groww reviews matched fee-related keywo=
+rds.
+- **Negative sentiment:** 289 of those 428 reviews had ratings of 1 or 2.
+- **Customer experience:** Reviews describe difficulty viewing charge breakdo=
+wns and understanding deductions.
+
+*These are keyword-based exploratory counts, not validated theme classificati=
+ons. The dataset has no review dates.*
+
+## The voice of the customer
+
+> =E2=80=9Cthere should be an option to view the breakup of charges deducted =
+on sell and purchase in all transactions page=E2=80=9D
+
+> =E2=80=9Ceverything not showing clearly and brokerage very high=E2=80=9D
+
+> =E2=80=9CCharge extra money on stock sales. And the app also does not show =
+the details of all the charges.=E2=80=9D
+
+## Product insight
+
+Customers may need clearer, transaction-level explanations of brokerage, stat=
+utory charges, and other applicable deductions. Complaints indicate a transpa=
+rency concern, not proof of incorrect billing.
+
+## Three actions for next week
+
+1. **Audit the experience:** Check where customers can view their transaction=
+-wise charge breakdown.
+2. **Clarify fees:** Validate explanations against official pricing informati=
+on.
+3. **Validate the problem:** Review dated customer feedback and interview aff=
+ected users before prioritizing a solution.
+
+**Data status:** Exploratory analysis; the required 8=E2=80=9312-week review =
+window remains unverified.
+
+# Fee Explainer: Understanding Groww Equity Trading Charges
+
+- **Brokerage:** For regular equity trades, Groww lists brokerage as the lowe=
+r of =E2=82=B920 or 0.1% of trade value, subject to the applicable minimum ch=
+arge.
+- **Other charges:** Exchange transaction charges, SEBI turnover charges, sta=
+mp duty, and Securities Transaction Tax (STT) may also apply, depending on th=
+e trade.
+- **DP charges:** Selling shares from a demat account can attract DP charges =
+per sell transaction.
+- **GST:** GST applies to specified service charges, including brokerage and =
+DP charges.
+- **Why the total can vary:** The final amount depends on trade value, order =
+type, buy or sell activity, applicable taxes, and other charges.
+- **Where to verify:** Check the official pricing page and Groww's DP-charge =
+explanation for the applicable rates and conditions.
+
+**Customer issue:** Reviews indicate that some users find transaction-charge =
+breakdowns difficult to understand. This is a reported transparency concern, =
+not proof of incorrect billing.
+
+**Sources:**
+1. https://groww.in/pricing
+2. https://groww.in/help/stocks/searchable/when-are-dp-charges-levied
+
+**Last checked: 14 Oct 2026**

@@ -56,7 +56,7 @@ def main():
     data = {
         "date": entry.get("date", "Date unavailable"),
         "range": entry.get("date", "Date unavailable"),
-        "review_count": 50,
+        "review_count": 10000,
         "top_themes": entry.get("top_themes", []),
         "weekly_pulse": pulse,
         "identified_fee_issue": entry.get(

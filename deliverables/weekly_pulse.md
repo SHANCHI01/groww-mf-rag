@@ -1,38 +1,36 @@
 ﻿# ClearPulse | The Monday Signal
-**Weekly Product Pulse - 13 October 2026**
+**Exploratory Product Pulse — 14 October 2026**
 
-## The signal in 50 reviews
+## The signal
 
-**The good:** Users love the simplicity.
-**The friction:** Brokerage charges affect perceived value.
-**The risk:** Older Android users report compatibility issues.
+**The opportunity:** Make transaction charges easier to understand.
+
+**The risk:** Customers may perceive brokerage and other deductions as unclear or expensive.
 
 ## What customers are telling us
 
-- **Positive experience - 65 mentions:** Users appreciate easy navigation and convenient investing.
-- **Brokerage and charges - 5 mentions:** Customers question pricing and compare alternatives.
-- **Performance and stability - 4 mentions:** Lag and older Android compatibility are recurring concerns.
+- **Fee transparency:** 428 of 10,000 Groww reviews matched fee-related keywords.
+- **Negative sentiment:** 289 of those 428 reviews had ratings of 1 or 2.
+- **Customer experience:** Reviews describe difficulty viewing charge breakdowns and understanding deductions.
+
+*These are keyword-based exploratory counts, not validated theme classifications. The dataset has no review dates.*
 
 ## The voice of the customer
 
-> "The app is user-friendly, easy to navigate, and makes investing in stocks and mutual funds convenient."
+> “there should be an option to view the breakup of charges deducted on sell and purchase in all transactions page”
 
-> "This application is highest brokerage charges take from user in comparison to other application."
+> “everything not showing clearly and brokerage very high”
 
-> "App stopped working with old android OS since october 2026. kindly do something and make it work again!"
+> “Charge extra money on stock sales. And the app also does not show the details of all the charges.”
 
-## The product insight
+## Product insight
 
-**Ease of use builds satisfaction. Perceived cost and reliability can weaken it.**
+Customers may need clearer, transaction-level explanations of brokerage, statutory charges, and other applicable deductions. Complaints indicate a transparency concern, not proof of incorrect billing.
 
-Pricing perceptions and compatibility issues are signals to investigate, not yet proof of churn.
+## Three actions for next week
 
-## Three moves for next week
+1. **Audit the experience:** Check where customers can view their transaction-wise charge breakdown.
+2. **Clarify fees:** Validate explanations against official pricing information.
+3. **Validate the problem:** Review dated customer feedback and interview affected users before prioritizing a solution.
 
-1. **Clarify pricing:** Review customer confusion using verified pricing information.
-2. **Investigate compatibility:** Identify affected Android versions and assess the scale.
-3. **Validate the friction:** Review more complaints and interview affected users before prioritising solutions.
-
-## Monday's priority
-
-**Protect the experience users already love while investigating the friction that could push them away.**
+**Data status:** Exploratory analysis; the required 8–12-week review window remains unverified.
